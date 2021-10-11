@@ -76,6 +76,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
         'Topic :: Software Development :: Bug Tracking',
         'Topic :: Software Development :: Quality Assurance',
         'Topic :: Software Development :: Testing',
