@@ -4,6 +4,8 @@ All notable changes in **salt-lint** are documented below.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [0.8.0] (2021-11-09)
 ### Fixed
 - False positive when detecting missing spaces in Jinja variables when the Jinja statement is nested in literal braces ([#272](https://github.com/warpnet/salt-lint/pull/272)).
 - Ensure a single missing quote in the file mode is also detected as incorrect quotation of a file mode ([#273](https://github.com/warpnet/salt-lint/pull/273)).
@@ -44,7 +46,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Rules 901-915 to check for deprecated states and state options ([#214](https://github.com/warpnet/salt-lint/pull/214)).
 - This `CHANGELOG.md` file to be able to list all notable changes for each version of **salt-lint** ([#223](https://github.com/warpnet/salt-lint/pull/223)).
 
-[Unreleased]: https://github.com/warpnet/salt-lint/compare/v0.7.0...HEAD
+[Unreleased]: https://github.com/warpnet/salt-lint/compare/v0.8.0...HEAD
+[0.8.0]: https://github.com/warpnet/salt-lint/compare/v0.7.0...v0.8.0
 [0.7.0]: https://github.com/warpnet/salt-lint/compare/v0.6.1...v0.7.0
 [0.6.1]: https://github.com/warpnet/salt-lint/compare/v0.6.0...v0.6.1
 [0.6.0]: https://github.com/warpnet/salt-lint/compare/v0.5.2...v0.6.0
